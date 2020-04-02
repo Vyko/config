@@ -118,3 +118,6 @@ if ! shopt -oq posix; then
 fi
 
 stty -ixon
+
+test -f ~/.bashrc.local && source ~/.bashrc.local
+
